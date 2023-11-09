@@ -80,7 +80,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     .infoNotes[index]);
                                           }
                                         },
-                                        icon: const Icon(Icons.delete),
+                                        icon: const Icon(
+                                            Icons.highlight_remove_outlined),
                                         color: Colors.red,
                                       ),
                                     ],

@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 
           case '/base':
           default:
-            return MaterialPageRoute(builder: (context) => LoginScreen());
+            return MaterialPageRoute(builder: (context) => const LoginScreen());
         }
       },
     );
